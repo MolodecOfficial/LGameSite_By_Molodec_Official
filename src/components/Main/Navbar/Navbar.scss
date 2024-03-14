@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: gray;
+}
+.logo {
+  padding-right: 65vh;
+  width: 50px;
+}
+.navbar {
+  border: 1px solid red;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 10vh;
+
+}
+.nav-btn {
+  border: 1px solid black;
+  border-radius: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  text-decoration: none;
+  font-size: 20px;
+}
+.download {
+  padding-left: 65vh;
+
+}
+
