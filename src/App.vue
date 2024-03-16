@@ -1,11 +1,20 @@
 <script setup>
-import Main from "./components/Main/Main.vue";
+
+import MainPage from "./components/Main/MainPage.vue";
+import Section from "./components/Main/Section/Section.vue";
+
+let customTitle = document.title;
+window.addEventListener("blur", () => {
+  document.title = "We are waiting for your return!";
+})
+window.addEventListener("focus", () => {
+  document.title = customTitle;
+})
+
 </script>
 
 <template>
-  <div class="main">
-    <Main/>
-  </div>
+  <MainPage/>
 </template>
 
 <style scoped>

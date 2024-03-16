@@ -1,14 +1,14 @@
 <script setup>
 
 import Navbar from "./Navbar/Navbar.vue";
+import Section from "./Section/Section.vue";
+
+
 </script>
 
 <template>
-  <div class="container">
-    <header class="hdr">
-      <Navbar></Navbar>
-    </header>
-  </div>
+  <Navbar/>
+  <Section/>
 </template>
 
 <style scoped>

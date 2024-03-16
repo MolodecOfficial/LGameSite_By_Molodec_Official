@@ -4,7 +4,7 @@
 
 <template>
   <div class="navbar">
-    <img class="logo" src="../../../assets/Main/Navbar/favicon.ico"/>
+    <img class="logo" src="../../../assets/Main/Navbar/logo.png"/>
     <a class="nav-btn" href="#">Главная</a>
     <a class="nav-btn" href="#">Сборки</a>
     <a class="nav-btn" href="#">Команда</a>
