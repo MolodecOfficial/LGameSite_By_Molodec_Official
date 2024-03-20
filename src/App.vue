@@ -1,11 +1,13 @@
-<script setup>
+<template>
+  <Modpacks/>
+</template>
 
-import MainPage from "./components/Main/MainPage.vue";
-import Section from "./components/Main/Section/Section.vue";
+<script setup>
+import Modpacks from "./components/Modpacks/Modpacks.vue";
 
 let customTitle = document.title;
 window.addEventListener("blur", () => {
-  document.title = "We are waiting for your return!";
+  document.title = "We are waiting for Your return!"
 })
 window.addEventListener("focus", () => {
   document.title = customTitle;
@@ -13,10 +15,6 @@ window.addEventListener("focus", () => {
 
 </script>
 
-<template>
-  <MainPage/>
-</template>
-
-<style scoped>
+<style lang="scss">
 
 </style>
