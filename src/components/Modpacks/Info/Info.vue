@@ -6,7 +6,7 @@
   <div class="modpacks">
     <div class="first_page">
       <div class="text_modpacks">
-        <h2 class="text_preview">LGame Studio - Иследуй. Изучай. Дабуди Дабудай. </h2>
+        <h2 class="text_preview">LGame Studio - Исследуй. Изучай. Дабуди Дабудай. </h2>
 
       </div>
     </div>
