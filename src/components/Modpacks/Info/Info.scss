@@ -3,29 +3,61 @@
   margin: 0;
   box-sizing: border-box;
 }
-
-.first_page {
-  height: 85vh;
-  display: flex;
-  animation: first 3.8s;
-  background: linear-gradient(90deg, #9b9b9b 30%, #545151 45.64%, rgba(21, 9, 9, 0) 100%);
-  overflow: hidden;
-  justify-content: center;
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
 }
 
-@keyframes first {
+.first_page {
+  height: 90vh;
+  display: flex;
+}
+.text_modpacks {
+  width: 100vw;
+}
+.text_preview {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  animation: text 3.8s;
+}
+@keyframes text {
   0% {
+
     opacity: 0;
   }
-  80% {
+  35% {
     opacity: 0;
   }
   90% {
-    opacity: 0;
+    opacity:60%;
   }
   100% {
     opacity: 100%;
+
   }
+}
+.video_preview {
+  display: inline-block;
+  height: 100vh;
+}
+
+.second_page {
+  height: 100vh;
+  display: flex;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  height: 65vh;
+  display: flex;
+  background: linear-gradient(90deg, #444444 20%, #b2aeae 45%, rgba(21, 9, 9, 0) 80%);
+  overflow: hidden;
+  justify-content: center;
 }
 
 .main_video {
@@ -47,10 +79,12 @@
 .main_text {
   margin-left: 150px;
   display: flex;
-  border: 1px solid red;
   align-items: center;
 }
 .text {
   font-size: 25px;
   color: whitesmoke;
+}
+.third_page {
+
 }
